@@ -1,9 +1,7 @@
 /*
  * 创建自由线
- * @Author: Wang jianLei
- * @Date: 2022-04-16 21:49:57
- * @Last Modified by: Wang JianLei
- * @Last Modified time: 2022-04-19 22:27:10
+ * @Author: yyx
+ * @Date: 2022-06-22 
  */
 import CreateRemindertip from "./ReminderTip";
 const Cesium = window.Cesium;
