@@ -1,6 +1,6 @@
 /*
  * 创建集结地
- * @Author: Wang jianLei
+ * @Author: yyx
  * @Date: 2022-06-22
  */
 import CreateRemindertip from "./ReminderTip";
