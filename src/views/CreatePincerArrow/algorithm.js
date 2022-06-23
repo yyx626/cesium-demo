@@ -1,7 +1,7 @@
 window.xp = {
     version: "1.1.0",
-    createTime: "2021.6.19",
-    author: "wjl"
+    createTime: "2022.6.23",
+    author: "yyx"
 }
 var doubleArrowDefualParam = {
     type: "doublearrow",
