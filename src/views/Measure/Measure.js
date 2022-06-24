@@ -39,7 +39,7 @@ class Measure {
     }
   }
   /**
-  * 坐标数组转换 笛卡尔转84
+  * 坐标数组转换 84转笛卡尔
   * @param {Array} WSG84Arr {lng,lat,alt} 地理坐标数组
   * @param {Number} alt 拔高
   * @return {Array} Cartesian3 三维位置坐标数组
@@ -69,7 +69,7 @@ class Measure {
     }
   }
   /**
-  * 坐标数组转换 笛卡尔转86
+  * 坐标数组转换 笛卡尔转84
   * @param {Array} cartesianArr 三维位置坐标数组
   * @return {Array} {lng,lat,alt} 地理坐标数组
   */
