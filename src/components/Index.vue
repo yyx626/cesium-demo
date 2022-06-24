@@ -3,61 +3,73 @@
     <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
       <el-menu>
         <el-submenu index="1">
-          <template slot="title"><i class="el-icon-mouse"></i>Interaction</template>
-          <el-menu-item index="1-1">
-            <router-link to="/Measure">Measure</router-link>
-          </el-menu-item>
-          <el-menu-item index="1-2">
-            <router-link to="/MilitaryPlotting">Plotting</router-link>
-          </el-menu-item>
+          <template slot="title"
+            ><i class="el-icon-mouse"></i>Interaction</template
+          ><router-link to="/Measure">
+            <el-menu-item index="1-1"> Measure </el-menu-item></router-link
+          >
+          <router-link to="/MilitaryPlotting">
+            <el-menu-item index="1-2"> Plotting </el-menu-item></router-link
+          >
         </el-submenu>
         <el-submenu index="2">
-          <template slot="title"><i class="el-icon-pie-chart"></i>Echarts</template>
-          <el-menu-item index="2-1">
-            <router-link to="/CesiumEcharts">Charts</router-link>
-          </el-menu-item>
-          <el-menu-item index="2-2">
-            <router-link to="/FlyingLine">FlyingLine(converge)</router-link>
-          </el-menu-item>
-          <el-menu-item index="2-3">
-            <router-link to="/FlyingLine_1">FlyingLine(divergency)</router-link>
-          </el-menu-item>
+          <template slot="title"
+            ><i class="el-icon-pie-chart"></i>Echarts</template
+          ><router-link to="/CesiumEcharts">
+            <el-menu-item index="2-1"> Charts </el-menu-item></router-link
+          >
+          <router-link to="/FlyingLine">
+            <el-menu-item index="2-2">
+              FlyingLine(converge)
+            </el-menu-item></router-link
+          ><router-link to="/FlyingLine_1">
+            <el-menu-item index="2-3">
+              FlyingLine(divergency)
+            </el-menu-item></router-link
+          >
         </el-submenu>
         <el-submenu index="3">
-          <template slot="title"><i class="el-icon-place"></i>Terrain Analysis</template>
-          <el-menu-item index="3-1">
-            <router-link to="/ProfileAnalysis">Profile</router-link>
-          </el-menu-item>
-          <el-menu-item index="3-2">
-            <router-link to="/SlopeAspect">Slope and Aspect</router-link>
-          </el-menu-item>
-          <el-menu-item index="3-3">
-            <router-link to="/CutFill">Cut and Fill</router-link>
-          </el-menu-item>
+          <template slot="title"
+            ><i class="el-icon-place"></i>Terrain Analysis</template
+          ><router-link to="/ProfileAnalysis">
+            <el-menu-item index="3-1"> Profile </el-menu-item></router-link
+          ><router-link to="/SlopeAspect">
+            <el-menu-item index="3-2">
+              Slope and Aspect
+            </el-menu-item></router-link
+          ><router-link to="/CutFill">
+            <el-menu-item index="3-3"> Cut and Fill </el-menu-item></router-link
+          >
         </el-submenu>
         <el-submenu index="4">
-          <template slot="title"><i class="el-icon-view"></i>Visual Analysis</template>
-          <el-menu-item index="4-1">
-            <router-link to="/Viewershed">Viewshed</router-link>
-          </el-menu-item>
-          <el-menu-item index="4-2">
-            <router-link to="/VisibilityAnalysis">Visibility</router-link>
-          </el-menu-item>
+          <template slot="title"
+            ><i class="el-icon-view"></i>Visual Analysis</template
+          ><router-link to="/Viewershed">
+            <el-menu-item index="4-1"> Viewshed </el-menu-item></router-link
+          ><router-link to="/VisibilityAnalysis">
+            <el-menu-item index="4-2"> Visibility </el-menu-item></router-link
+          >
         </el-submenu>
         <el-submenu index="5">
-          <template slot="title"><i class="el-icon-camera"></i>Visualization</template>
-          <el-menu-item index="5-1">
-            <router-link to="/GeojsonBillboard">Geojson Billboard</router-link>
-          </el-menu-item>
-          <el-menu-item index="5-2">
-            <router-link to="/RadarEffect1">Radar Effect_1</router-link>
-          </el-menu-item>
-          <el-menu-item index="5-3">
-            <router-link to="/RadarEffect2">Radar Effect_2</router-link>
-          </el-menu-item>
-          <el-menu-item index="5-4">
-            <router-link to="/RadarEffect3">Radar Effect_3</router-link>
-          </el-menu-item>
+          <template slot="title"
+            ><i class="el-icon-camera"></i>Visualization</template
+          ><router-link to="/GeojsonBillboard">
+            <el-menu-item index="5-1">
+              Geojson Billboard
+            </el-menu-item></router-link
+          ><router-link to="/RadarEffect1">
+            <el-menu-item index="5-2">
+              Radar Effect_1
+            </el-menu-item></router-link
+          ><router-link to="/RadarEffect2">
+            <el-menu-item index="5-3">
+              Radar Effect_2
+            </el-menu-item></router-link
+          ><router-link to="/RadarEffect3">
+            <el-menu-item index="5-4">
+              Radar Effect_3
+            </el-menu-item></router-link
+          >
         </el-submenu>
       </el-menu>
     </el-aside>
