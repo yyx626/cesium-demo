@@ -18,7 +18,7 @@ const routes = [
   // 重定向：项目跑起来时，访问/ 立马定向到首页
   {
     path: "*",
-    redirect: "/RadarEffect1"
+    redirect: "/CesiumParameter"
   },
   {
     path: "/CesiumEcharts",
