@@ -1,20 +1,101 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-
 Vue.use(VueRouter);
 
 const routes = [
+  // {
+  //   path: "/",
+  //   name: "Home",
+  //   // route level code-splitting
+  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   component: () =>
+  //     import(
+  //       /* webpackChunkName: "about" */ "../views/Viewershed/Viewershed.vue"
+  //     ),
+  // },
+
+  // 重定向：项目跑起来时，访问/ 立马定向到首页
   {
-    path: "/",
-    name: "Home",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(
-        /* webpackChunkName: "about" */ "../views/CesiumEcharts/CesiumEcharts.vue"
-      ),
+    path: "*",
+    redirect: "/RadarEffect1"
   },
+  {
+    path: "/CesiumEcharts",
+    name: "CesiumEcharts",
+    component: () => import("../views/CesiumEcharts/CesiumEcharts.vue"),
+  },
+  {
+    path: "/CesiumParameter",
+    name: "CesiumParameter",
+    component: () => import("../views/CesiumParameter/CesiumParameter.vue")
+  },
+  {
+    path: "/CutFill",
+    name: "CutFill",
+    component: () => import("../views/CutFill/CutFill.vue")
+  },
+  {
+    path: "/RadarEffect1",
+    name: "RadarEffect1",
+    component: () => import("../views/RadarEffect/RadarEffect1.vue")
+  },
+  {
+    path: "/RadarEffect2",
+    name: "RadarEffect12",
+    component: () => import("../views/RadarEffect/RadarEffect2.vue")
+  },
+  {
+    path: "/RadarEffect3",
+    name: "RadarEffect13",
+    component: () => import("../views/RadarEffect/RadarEffect3.vue")
+  },
+  {
+    path: "/FlyingLine",
+    name: "FlyingLine",
+    component: () => import("../views/FlyingLine/FlyingLine.vue")
+  },
+  {
+    path: "/FlyingLine_1",
+    name: "FlyingLine_1",
+    component: () => import("../views/FlyingLine/FlyingLine_1.vue")
+  },
+  {
+    path: "/GeojsonBillboard",
+    name: "GeojsonBillboard",
+    component: () => import("../views/GeojsonBillboard/GeojsonBillboard.vue")
+  },
+  {
+    path: "/Measure",
+    name: "Measure",
+    component: () => import("../views/Measure/Measure.vue"),
+  },
+  {
+    path: "/MilitaryPlotting",
+    name: "MilitaryPlotting",
+    component: () => import("../views/MilitaryPlotting/MilitaryPlotting.vue"),
+  },
+  {
+    path: "/ProfileAnalysis",
+    name: "ProfileAnalysis",
+    component: () => import("../views/ProfileAnalysis/ProfileAnalysis.vue")
+  },
+  {
+    path: "/SlopeAspect",
+    name: "SlopeAspect",
+    component: () => import("../views/SlopeAspect/SlopeAspect.vue")
+  },
+  {
+    path: "/Viewershed",
+    name: "Viewershed",
+    component: () => import("../views/Viewershed/Viewershed.vue")
+  },
+  {
+    path: "/VisibilityAnalysis",
+    name: "VisibilityAnalysis",
+    component: () => import("../views/VisibilityAnalysis/VisibilityAnalysis.vue")
+  },
+
 ];
 
 const router = new VueRouter({
