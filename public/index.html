@@ -8,11 +8,14 @@
   <link rel="icon" href="<%= BASE_URL %>logo.png">
   <script src="./lib/Cesium-1.92/Build/CesiumUnminified/Cesium.js"></script>
   <link rel="stylesheet" href="./lib/Cesium-1.92/Build/CesiumUnminified/Widgets/widgets.css">
+  <!-- 代码智能提示 -->
+  <reference path="./lib/Cesium-1.92/Build/CesiumUnminified/Cesium.d.ts"></reference>
   <title>
     <%= htmlWebpackPlugin.options.title %>
   </title>
   <style>
-    html,body{
+    html,
+    body {
       width: 100%;
       height: 100%;
       margin: 0;
@@ -22,10 +25,10 @@
   </style>
   <script>
     let time = new Date().getTime() - performance.timing.navigationStart;
-    console.log("白屏时间：", time);
+    console.log("The white screen: ", time);
     window.onload = function () {
       let time = new Date().getTime() - performance.timing.navigationStart;
-      console.log("首屏时间：",time);
+      console.log("The first screen: ", time);
     }
   </script>
 </head>
