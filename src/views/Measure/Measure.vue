@@ -1,10 +1,10 @@
 <template>
   <div id="cesiumContainer">
     <div class="measure-tools">
-      <el-button @click="distance">空间距离</el-button>
-      <el-button @click="area">空间面积</el-button>
-      <el-button @click="triangles">三角量测</el-button>
-      <el-button @click="clear">清除</el-button>
+      <el-button size="mini" @click="distance">空间距离</el-button>
+      <el-button size="mini" @click="area">空间面积</el-button>
+      <el-button size="mini" @click="triangles">三角量测</el-button>
+      <el-button size="mini" @click="clear">清除</el-button>
     </div>
   </div>
 </template>
