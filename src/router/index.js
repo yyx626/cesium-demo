@@ -31,6 +31,11 @@ const routes = [
     component: () => import("../views/CesiumParameter/CesiumParameter.vue")
   },
   {
+    path:"/ClusterAnalysis",
+    name:"ClusterAnalysis",
+    component:()=>import("../views/ClusterAnalysis/ClusterAnalysis.vue")
+  },
+  {
     path: "/CutFill",
     name: "CutFill",
     component: () => import("../views/CutFill/CutFill.vue")
