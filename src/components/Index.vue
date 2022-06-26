@@ -57,6 +57,11 @@
             <el-menu-item index="5-1">
               Geojson Billboard
             </el-menu-item></router-link
+          >
+          <router-link to="/ClusterAnalysis">
+            <el-menu-item index="5-1">
+              Cluster Analysis
+            </el-menu-item></router-link
           ><router-link to="/RadarEffect1">
             <el-menu-item index="5-2">
               Radar Effect_1
