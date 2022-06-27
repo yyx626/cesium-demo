@@ -57,14 +57,14 @@ export default {
     },
     initModel() {
       const tilesetModel = new Cesium.Cesium3DTileset({
-        url: `data/大雁塔3Dtiles/dayanta/tileset.json`,
+        url:`data/dayanta/tileset.json`
       });
       tilesetModel.readyPromise
         .then(function (tileset) {
           viewer.scene.primitives.add(tileset);
           viewer.flyTo(tileset);
         })
-        .otherwise(function (error) {
+        .catch(function (error) {
           console.log(error);
         });
     },
