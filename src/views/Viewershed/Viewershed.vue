@@ -53,7 +53,7 @@ export default {
     },
     initModel() {
       let tilesetModel = new Cesium.Cesium3DTileset({
-        url: `http://earthsdk.com/v/last/Apps/assets/dayanta/tileset.json`,
+        url: `data/大雁塔3Dtiles/dayanta/tileset.json`,
       });
       viewer.scene.primitives.add(tilesetModel);
       window.viewer.flyTo(tilesetModel);

@@ -36,8 +36,8 @@ export default {
       infoBox: false,
     });
     viewer._cesiumWidget._creditContainer.style.display = "none"; // 隐藏版权
-    // this.initModel();
-    this.initCamera();
+    this.initModel();
+    // this.initCamera();
 
   },
   methods: {
@@ -57,7 +57,7 @@ export default {
     },
     initModel() {
       const tilesetModel = new Cesium.Cesium3DTileset({
-        url: `${window.location.origin}/data/gugong.geojson`,
+        url: `data/大雁塔3Dtiles/dayanta/tileset.json`,
       });
       tilesetModel.readyPromise
         .then(function (tileset) {
