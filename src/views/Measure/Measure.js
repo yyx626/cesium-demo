@@ -336,7 +336,7 @@ class Measure {
         _handler.destroy();
         positions.push(positions[0]);
         // 添加信息点
-        _addInfoPoint(positions[0])
+         _addInfoPoint(positions[0])
         if (typeof options.callback === 'function') {
           options.callback($this.transformCartesianArrayToWGS84Array(positions), polyObj);
         }
@@ -355,7 +355,7 @@ class Measure {
           hierarchy: new Cesium.CallbackProperty(function () {
             return polygon
           }, false),
-          material: Cesium.Color.WHITE.withAlpha(0.2)
+          material: Cesium.Color.BLUE.withAlpha(0.2)
           , clampToGround: options.clampToGround || false
         }
         polyObj = $this._drawLayer.entities.add(_polygonEntity)
