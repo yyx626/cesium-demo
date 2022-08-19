@@ -42,8 +42,8 @@ export default {
       infoBox: false,
     });
     viewer._cesiumWidget._creditContainer.style.display = "none"; // 隐藏版权
-    // this.initModel();
-    this.initCamera();
+    this.initModel();
+    // this.initCamera();
   },
   methods: {
     startAnalysis() {
@@ -70,7 +70,7 @@ export default {
     },
     initModel() {
       let tilesetModel = new Cesium.Cesium3DTileset({
-        // url: `${window.location.origin}/data/model/osgb/tileset.json`,
+        url: `data/dayanta/tileset.json`
       });
       viewer.scene.primitives.add(tilesetModel);
       viewer.zoomTo(tilesetModel);
