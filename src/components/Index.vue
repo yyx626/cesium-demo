@@ -39,6 +39,8 @@
             </el-menu-item></router-link
           ><router-link to="/CutFill">
             <el-menu-item index="3-3"> Cut and Fill </el-menu-item></router-link
+          ><router-link to="/TerrainExcavation">
+            <el-menu-item index="3-4"> Terrain Excavation </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="4">

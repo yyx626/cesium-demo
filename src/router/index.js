@@ -18,7 +18,12 @@ const routes = [
   // 重定向：项目跑起来时，访问/ 立马定向到首页
   {
     path: "*",
-    redirect: "/CesiumParameter"
+    redirect: "/index"
+  },
+  // 首页
+  {
+    path:"/index",
+    component:()=>import("../views/ImageryLayer/ImageryLayer.vue")
   },
   {
     path: "/CesiumEcharts",
@@ -89,6 +94,11 @@ const routes = [
     path: "/SlopeAspect",
     name: "SlopeAspect",
     component: () => import("../views/SlopeAspect/SlopeAspect.vue")
+  },
+  {
+    path: "/TerrainExcavation",
+    name: "TerrainExcavation",
+    component: () => import("../views/TerrainExcavation/TerrainExcavation.vue")
   },
   {
     path: "/Viewershed",
