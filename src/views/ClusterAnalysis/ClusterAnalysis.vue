@@ -54,7 +54,7 @@ export default {
         });
         viewer.dataSources.add(dataSource);
         viewer.flyTo(dataSource);
-        const clusterImage = require("./image/back.png");
+        const clusterImage = require("./image/default.png");
         ClusterAnalysis(viewer, dataSource, {
           pixelRange: 70,
           minimumClusterSize: 3,
