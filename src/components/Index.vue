@@ -78,6 +78,13 @@
             </el-menu-item></router-link
           >
         </el-submenu>
+        <el-submenu index="6">
+          <template slot="title"
+            ><i class="el-icon-location"></i>Path Animation</template
+          ><router-link to="/HistoryPath">
+            <el-menu-item index="4-1"> History Path </el-menu-item></router-link
+          >
+        </el-submenu>
       </el-menu>
     </el-aside>
 

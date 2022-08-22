@@ -76,6 +76,11 @@ const routes = [
     component: () => import("../views/GeojsonBillboard/GeojsonBillboard.vue")
   },
   {
+    path: "/HistoryPath",
+    name: "HistoryPath",
+    component: () => import("../views/HistoryPath/HistoryPath.vue")
+  },
+  {
     path: "/Measure",
     name: "Measure",
     component: () => import("../views/Measure/Measure.vue"),
