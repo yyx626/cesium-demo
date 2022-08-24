@@ -1,3 +1,7 @@
+/*
+ * @Author: yyx
+ * @Date: 2022-08-24
+ */
 const Cesium = window.Cesium;
 class CutFillAnalysis {
   constructor(viewer, positions, height, precision) {
@@ -20,7 +24,7 @@ class CutFillAnalysis {
       vertexFormat: Cesium.PerInstanceColorAppearance.FLAT_VERTEX_FORMAT,
       granularity: granularity,
     });
-    //创建自定义平面几何体
+    //创建多边形平面几何体
     this.geom = new Cesium.PolygonGeometry.createGeometry(polygonGeometry);
   }
   VolumeAnalysis() {
@@ -121,10 +125,14 @@ class CutFillAnalysis {
       positions[index * 3 + 2]
     );
     let cartographic = Cesium.Cartographic.fromCartesian(cartesian);
-    let height = this.viewer.scene.globe.getHeight(cartographic);
+    let height = this.viewer.scene.sampleHeightSupported
+      ? this.viewer.scene.sampleHeight(cartographic)
+      : this.viewer.scene.globe.getHeight(cartographic);
+ 
     if (height > this.maxHeigh) {
       this.maxHeigh = height;
     }
+ 
     return {
       heightPos: Cesium.Cartesian3.fromRadians(
         cartographic.longitude,

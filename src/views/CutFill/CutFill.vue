@@ -88,6 +88,20 @@ export default {
     this.getLocation();
   },
   methods: {
+    initModel() {
+      const tilesetModel = new Cesium.Cesium3DTileset({
+        // url: `${window.location.origin}/data/model/bim/tileset.json`,
+        url: `data/dayanta/tileset.json`
+      });
+      tilesetModel.readyPromise
+        .then(function (tileset) {
+          viewer.scene.primitives.add(tileset);
+          viewer.flyTo(tileset);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    },
     drawBoundary() {
       const $this = this;
       let cp = new CreatePolygon(window.viewer);
