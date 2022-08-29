@@ -66,6 +66,11 @@ const routes = [
     component: () => import("../views/Path/RealtimePath.vue")
   },
   {
+    path: "/Flood",
+    name: "Flood",
+    component: () => import("../views/Flood/Flood.vue")
+  },
+  {
     path: "/FlyingLine",
     name: "FlyingLine",
     component: () => import("../views/FlyingLine/FlyingLine.vue")

@@ -80,13 +80,20 @@
         </el-submenu>
         <el-submenu index="6">
           <template slot="title"
-            ><i class="el-icon-location"></i>Path Animation</template
+            ><i class="el-icon-location-outline"></i>Path Animation</template
           ><router-link to="/HistoryPath">
             <el-menu-item index="6-1"> History Path </el-menu-item></router-link
           ><router-link to="/HistoryPathRefresh">
             <el-menu-item index="6-2"> History Path Refresh</el-menu-item></router-link
           ><router-link to="/RealtimePath">
             <el-menu-item index="6-3"> Realtime Path </el-menu-item></router-link
+          >
+        </el-submenu>
+        <el-submenu index="7">
+          <template slot="title"
+            ><i class="el-icon-discover"></i>Spatial Analysis</template
+          ><router-link to="/Flood">
+            <el-menu-item index="7-1"> Flood Analysis </el-menu-item></router-link
           >
         </el-submenu>
       </el-menu>
