@@ -61,19 +61,19 @@
             </el-menu-item></router-link
           >
           <router-link to="/ClusterAnalysis">
-            <el-menu-item index="5-1">
+            <el-menu-item index="5-2">
               Cluster Analysis
             </el-menu-item></router-link
           ><router-link to="/RadarEffect1">
-            <el-menu-item index="5-2">
+            <el-menu-item index="5-3">
               Radar Effect_1
             </el-menu-item></router-link
           ><router-link to="/RadarEffect2">
-            <el-menu-item index="5-3">
+            <el-menu-item index="5-4">
               Radar Effect_2
             </el-menu-item></router-link
           ><router-link to="/RadarEffect3">
-            <el-menu-item index="5-4">
+            <el-menu-item index="5-5">
               Radar Effect_3
             </el-menu-item></router-link
           >
@@ -82,7 +82,11 @@
           <template slot="title"
             ><i class="el-icon-location"></i>Path Animation</template
           ><router-link to="/HistoryPath">
-            <el-menu-item index="4-1"> History Path </el-menu-item></router-link
+            <el-menu-item index="6-1"> History Path </el-menu-item></router-link
+          ><router-link to="/HistoryPathRefresh">
+            <el-menu-item index="6-2"> History Path Refresh</el-menu-item></router-link
+          ><router-link to="/RealtimePath">
+            <el-menu-item index="6-3"> Realtime Path </el-menu-item></router-link
           >
         </el-submenu>
       </el-menu>

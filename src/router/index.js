@@ -61,6 +61,11 @@ const routes = [
     component: () => import("../views/RadarEffect/RadarEffect3.vue")
   },
   {
+    path: "/RealtimePath",
+    name: "RealtimePath",
+    component: () => import("../views/Path/RealtimePath.vue")
+  },
+  {
     path: "/FlyingLine",
     name: "FlyingLine",
     component: () => import("../views/FlyingLine/FlyingLine.vue")
@@ -78,7 +83,12 @@ const routes = [
   {
     path: "/HistoryPath",
     name: "HistoryPath",
-    component: () => import("../views/HistoryPath/HistoryPath.vue")
+    component: () => import("../views/Path/HistoryPath.vue")
+  },
+  {
+    path: "/HistoryPathRefresh",
+    name: "HistoryPathRefresh",
+    component: () => import("../views/Path/HistoryPathRefresh.vue")
   },
   {
     path: "/Measure",
