@@ -5,24 +5,24 @@
         <el-submenu index="1">
           <template slot="title"
             ><i class="el-icon-mouse"></i>Interaction</template
-          ><router-link to="/Measure">
+          ><router-link to="/measure">
             <el-menu-item index="1-1"> Measure </el-menu-item></router-link
           >
-          <router-link to="/MilitaryPlotting">
+          <router-link to="/militaryPlotting">
             <el-menu-item index="1-2"> Plotting </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="2">
           <template slot="title"
             ><i class="el-icon-pie-chart"></i>Echarts</template
-          ><router-link to="/CesiumEcharts">
+          ><router-link to="/cesiumEcharts">
             <el-menu-item index="2-1"> Charts </el-menu-item></router-link
           >
-          <router-link to="/FlyingLine">
+          <router-link to="/flyingLine">
             <el-menu-item index="2-2">
               FlyingLine(converge)
             </el-menu-item></router-link
-          ><router-link to="/FlyingLine_1">
+          ><router-link to="/flyingLine_1">
             <el-menu-item index="2-3">
               FlyingLine(divergency)
             </el-menu-item></router-link
@@ -31,48 +31,48 @@
         <el-submenu index="3">
           <template slot="title"
             ><i class="el-icon-place"></i>Terrain Analysis</template
-          ><router-link to="/ProfileAnalysis">
+          ><router-link to="/profileAnalysis">
             <el-menu-item index="3-1"> Profile </el-menu-item></router-link
-          ><router-link to="/SlopeAspect">
+          ><router-link to="/slopeAspect">
             <el-menu-item index="3-2">
               Slope and Aspect
             </el-menu-item></router-link
-          ><router-link to="/CutFill">
+          ><router-link to="/cutFill">
             <el-menu-item index="3-3"> Cut and Fill </el-menu-item></router-link
-          ><router-link to="/TerrainExcavation">
+          ><router-link to="/terrainExcavation">
             <el-menu-item index="3-4"> Terrain Excavation </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="4">
           <template slot="title"
             ><i class="el-icon-view"></i>Visual Analysis</template
-          ><router-link to="/Viewershed">
+          ><router-link to="/viewershed">
             <el-menu-item index="4-1"> Viewshed </el-menu-item></router-link
-          ><router-link to="/VisibilityAnalysis">
+          ><router-link to="/visibilityAnalysis">
             <el-menu-item index="4-2"> Visibility </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="5">
           <template slot="title"
             ><i class="el-icon-camera"></i>Visualization</template
-          ><router-link to="/GeojsonBillboard">
+          ><router-link to="/geojsonBillboard">
             <el-menu-item index="5-1">
               Geojson Billboard
             </el-menu-item></router-link
           >
-          <router-link to="/ClusterAnalysis">
+          <router-link to="/clusterAnalysis">
             <el-menu-item index="5-2">
               Cluster Analysis
             </el-menu-item></router-link
-          ><router-link to="/RadarEffect1">
+          ><router-link to="/radarEffect1">
             <el-menu-item index="5-3">
               Radar Effect_1
             </el-menu-item></router-link
-          ><router-link to="/RadarEffect2">
+          ><router-link to="/radarEffect2">
             <el-menu-item index="5-4">
               Radar Effect_2
             </el-menu-item></router-link
-          ><router-link to="/RadarEffect3">
+          ><router-link to="/radarEffect3">
             <el-menu-item index="5-5">
               Radar Effect_3
             </el-menu-item></router-link
@@ -81,18 +81,18 @@
         <el-submenu index="6">
           <template slot="title"
             ><i class="el-icon-location-outline"></i>Path Animation</template
-          ><router-link to="/HistoryPath">
+          ><router-link to="/historyPath">
             <el-menu-item index="6-1"> History Path </el-menu-item></router-link
-          ><router-link to="/HistoryPathRefresh">
+          ><router-link to="/historyPathRefresh">
             <el-menu-item index="6-2"> History Path Refresh</el-menu-item></router-link
-          ><router-link to="/RealtimePath">
+          ><router-link to="/realtimePath">
             <el-menu-item index="6-3"> Realtime Path </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="7">
           <template slot="title"
             ><i class="el-icon-discover"></i>Spatial Analysis</template
-          ><router-link to="/Flood">
+          ><router-link to="/flood">
             <el-menu-item index="7-1"> Flood Analysis </el-menu-item></router-link
           >
         </el-submenu>
