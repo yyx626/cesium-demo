@@ -96,6 +96,13 @@
             <el-menu-item index="7-1"> Flood Analysis </el-menu-item></router-link
           >
         </el-submenu>
+        <el-submenu index="8">
+          <template slot="title"
+            ><i class="el-icon-edit"></i>Edit</template
+          ><router-link to="/edit3dm">
+            <el-menu-item index="8-1"> Edit 3Dtiles </el-menu-item></router-link
+          >
+        </el-submenu>
       </el-menu>
     </el-aside>
 

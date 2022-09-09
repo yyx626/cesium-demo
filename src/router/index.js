@@ -46,6 +46,11 @@ const routes = [
     component: () => import("../views/CutFill/CutFill.vue")
   },
   {
+    path: "/edit3dm",
+    name: "Edit3dm",
+    component: () => import("../views/Edit3DM/Edit3dm.vue")
+  },
+  {
     path: "/radarEffect1",
     name: "RadarEffect1",
     component: () => import("../views/RadarEffect/RadarEffect1.vue")
