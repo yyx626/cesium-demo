@@ -76,6 +76,10 @@
             <el-menu-item index="5-5">
               Radar Effect_3
             </el-menu-item></router-link
+          ><router-link to="/electric">
+            <el-menu-item index="5-6">
+              Electric material
+            </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="6">

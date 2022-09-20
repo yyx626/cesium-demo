@@ -51,6 +51,11 @@ const routes = [
     component: () => import("../views/Edit3DM/Edit3dm.vue")
   },
   {
+    path: "/electric",
+    name: "Electric",
+    component: () => import("../views/ElectricMaterial/ElectricMaterial.vue")
+  },
+  {
     path: "/radarEffect1",
     name: "RadarEffect1",
     component: () => import("../views/RadarEffect/RadarEffect1.vue")
