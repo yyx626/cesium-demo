@@ -47,7 +47,7 @@ let viewer = undefined;
 export default {
   data() {
     return {
-      serviceUrl: `${window.location.origin}/data/shape/model.shp`,
+      serviceUrl: `${window.location.origin}/data/shape/mask.shp`,
       boolDownload: false,
     };
   },
