@@ -111,6 +111,17 @@
             <el-menu-item index="8-1"> Edit 3Dtiles </el-menu-item></router-link
           >
         </el-submenu>
+        <el-submenu index="9">
+          <template slot="title"
+            ><i class="el-icon-setting"></i>Map</template
+          ><router-link to="/index">
+            <el-menu-item index="9-1"> Imagery Layer </el-menu-item></router-link
+          ><router-link to="/cesiumParameter">
+            <el-menu-item index="9-2"> Cesium Parameter </el-menu-item></router-link
+          ><router-link to="/shapeFile">
+            <el-menu-item index="9-3"> ShapeFile </el-menu-item></router-link
+          >
+        </el-submenu>
       </el-menu>
     </el-aside>
 

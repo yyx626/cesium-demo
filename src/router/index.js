@@ -126,6 +126,11 @@ const routes = [
     component: () => import("../views/ProfileAnalysis/ProfileAnalysis.vue")
   },
   {
+    path: "/shapeFile",
+    name: "ShapeFile",
+    component: () => import("../views/ShapeFile/ShapeFile.vue")
+  },
+  {
     path: "/spaceVolume",
     name: "SpaceVolume",
     component: () => import("../views/SpaceVolume/SpaceVolume.vue")
