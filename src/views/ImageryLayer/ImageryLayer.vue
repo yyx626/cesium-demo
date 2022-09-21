@@ -146,7 +146,7 @@
 const Cesium = window.Cesium;
 let viewer = undefined;
 let IL = undefined;
-import json from "./data/shandong.json";
+import json from "../../../public/data/json/shandong.json";
 import ImageryLayer from "./ImageryLayer.js";
 export default {
   data() {
