@@ -46,6 +46,11 @@ const routes = [
     component: () => import("../views/CutFill/CutFill.vue")
   },
   {
+    path: "/dynamicTrailMaterial",
+    name: "DynamicTrailMaterial",
+    component: () => import("../views/DynamicTrailMaterial/DynamicTrailMaterial.vue")
+  },
+  {
     path: "/edit3dm",
     name: "Edit3dm",
     component: () => import("../views/Edit3DM/Edit3dm.vue")
@@ -119,6 +124,11 @@ const routes = [
     path: "/profileAnalysis",
     name: "ProfileAnalysis",
     component: () => import("../views/ProfileAnalysis/ProfileAnalysis.vue")
+  },
+  {
+    path: "/spaceVolume",
+    name: "SpaceVolume",
+    component: () => import("../views/SpaceVolume/SpaceVolume.vue")
   },
   {
     path: "/slopeAspect",

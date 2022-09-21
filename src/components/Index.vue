@@ -80,6 +80,10 @@
             <el-menu-item index="5-6">
               Electric material
             </el-menu-item></router-link
+          ><router-link to="/dynamicTrailMaterial">
+            <el-menu-item index="5-7">
+              Dynamic Trail Material
+            </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="6">
