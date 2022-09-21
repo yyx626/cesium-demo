@@ -70,18 +70,12 @@ export default {
       fullscreenButton: true,
       vrButton: true,
       //关闭点选出现的提示框
-      selectionIndicator: true,
-      infoBox: true,
+      selectionIndicator: false,
+      infoBox: false,
     });
     viewer._cesiumWidget._creditContainer.style.display = "none"; // 隐藏版权
-    this.initCamera();
   },
   methods: {
-    initCamera() {
-      viewer.camera.flyTo({
-        destination: window.Cesium.Cartesian3.fromDegrees(110, 40, 9000000.0),
-      });
-    },
     loadShp4Server() {
       var _shpData, _dbfData;
       _shpData = document.getElementById("urlPath").value.trim();
