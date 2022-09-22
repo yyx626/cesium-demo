@@ -11,7 +11,7 @@
     "@turf/turf": "^6.5.0",
     "async-validator": "^4.2.5",
     "axios": "^0.27.2",
-    "core-js": "^3.6.5",
+    "core-js": "^3.25.2",
     "echarts": "^5.3.3",
     "echarts4": "npm:echarts@4",
     "element-ui": "^2.15.9",
