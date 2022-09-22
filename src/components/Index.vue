@@ -88,13 +88,15 @@
         </el-submenu>
         <el-submenu index="6">
           <template slot="title"
-            ><i class="el-icon-location-outline"></i>Path Animation</template
+            ><i class="el-icon-location-outline"></i>Path</template
+          ><router-link to="/pathPlanning">
+            <el-menu-item index="6-1"> Path Planning </el-menu-item></router-link
           ><router-link to="/historyPath">
-            <el-menu-item index="6-1"> History Path </el-menu-item></router-link
+            <el-menu-item index="6-2"> History Path </el-menu-item></router-link
           ><router-link to="/historyPathRefresh">
-            <el-menu-item index="6-2"> History Path Refresh</el-menu-item></router-link
+            <el-menu-item index="6-3"> History Path Refresh</el-menu-item></router-link
           ><router-link to="/realtimePath">
-            <el-menu-item index="6-3"> Realtime Path </el-menu-item></router-link
+            <el-menu-item index="6-4"> Realtime Path </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="7">

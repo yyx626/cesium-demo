@@ -61,6 +61,11 @@ const routes = [
     component: () => import("../views/ElectricMaterial/ElectricMaterial.vue")
   },
   {
+    path: "/pathPlanning",
+    name: "PathPlanning",
+    component: () => import("../views/PathPlanning/PathPlanning.vue")
+  },
+  {
     path: "/radarEffect1",
     name: "RadarEffect1",
     component: () => import("../views/RadarEffect/RadarEffect1.vue")
