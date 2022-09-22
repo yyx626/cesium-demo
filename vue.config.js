@@ -3,5 +3,8 @@ module.exports = {
     open: true,
     port: 8812,
   },
-  lintOnSave: false
+  lintOnSave: false,
+  configureWebpack: {
+    devtool: 'source-map'
+  }
 }
