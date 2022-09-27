@@ -31,6 +31,11 @@ const routes = [
     component: () => import("../views/CesiumEcharts/CesiumEcharts.vue"),
   },
   {
+    path: "/cesiumTree",
+    name: "CesiumTree",
+    component: () => import("../views/CesiumTree/CesiumTree.vue"),
+  },
+  {
     path: "/cesiumParameter",
     name: "CesiumParameter",
     component: () => import("../views/CesiumParameter/CesiumParameter.vue")

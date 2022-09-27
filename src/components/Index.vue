@@ -122,6 +122,8 @@
             <el-menu-item index="9-2"> Cesium Parameter </el-menu-item></router-link
           ><router-link to="/shapeFile">
             <el-menu-item index="9-3"> ShapeFile </el-menu-item></router-link
+          ><router-link to="/cesiumTree">
+            <el-menu-item index="9-4"> Project Tree </el-menu-item></router-link
           >
         </el-submenu>
       </el-menu>
