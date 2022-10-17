@@ -124,6 +124,8 @@
             <el-menu-item index="9-3"> ShapeFile </el-menu-item></router-link
           ><router-link to="/cesiumTree">
             <el-menu-item index="9-4"> Project Tree </el-menu-item></router-link
+          ><router-link to="/popWindow">
+            <el-menu-item index="9-5"> Popup </el-menu-item></router-link
           >
         </el-submenu>
       </el-menu>

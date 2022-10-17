@@ -136,6 +136,11 @@ const routes = [
     component: () => import("../views/ProfileAnalysis/ProfileAnalysis.vue")
   },
   {
+    path: "/popWindow",
+    name: "PopWindow",
+    component: () => import("../views/PopWindow/PopWindow.vue")
+  },
+  {
     path: "/shapeFile",
     name: "ShapeFile",
     component: () => import("../views/ShapeFile/ShapeFile.vue")
