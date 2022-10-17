@@ -26,6 +26,11 @@ const routes = [
     component:()=>import("../views/ImageryLayer/ImageryLayer.vue")
   },
   {
+    path: "/bufferAnalysis",
+    name: "BufferAnalysis",
+    component: () => import("../views/BufferAnalysis/BufferAnalysis.vue"),
+  },
+  {
     path: "/cesiumEcharts",
     name: "CesiumEcharts",
     component: () => import("../views/CesiumEcharts/CesiumEcharts.vue"),

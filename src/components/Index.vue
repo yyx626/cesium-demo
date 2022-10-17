@@ -104,6 +104,8 @@
             ><i class="el-icon-discover"></i>Spatial Analysis</template
           ><router-link to="/flood">
             <el-menu-item index="7-1"> Flood Analysis </el-menu-item></router-link
+          ><router-link to="/bufferAnalysis">
+            <el-menu-item index="7-2"> Buffer Analysis </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="8">
