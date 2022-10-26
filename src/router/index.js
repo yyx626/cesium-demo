@@ -116,6 +116,11 @@ const routes = [
     component: () => import("../views/GeojsonBillboard/GeojsonBillboard.vue")
   },
   {
+    path: "/heatmap",
+    name: "Heatmap",
+    component: () => import("../views/HeatMap/HeatmapCustom.vue")
+  },
+  {
     path: "/historyPath",
     name: "HistoryPath",
     component: () => import("../views/Path/HistoryPath.vue")

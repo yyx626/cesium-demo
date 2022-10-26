@@ -84,6 +84,10 @@
             <el-menu-item index="5-7">
               Dynamic Trail Material
             </el-menu-item></router-link
+          ><router-link to="/heatmap">
+            <el-menu-item index="5-8">
+              Heatmap
+            </el-menu-item></router-link
           >
         </el-submenu>
         <el-submenu index="6">
