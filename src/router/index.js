@@ -161,6 +161,11 @@ const routes = [
     component: () => import("../views/SlopeAspect/SlopeAspect.vue")
   },
   {
+    path: "/splitScreen",
+    name: "SplitScreen",
+    component: () => import("../views/SplitScreen/SplitScreen.vue")
+  },
+  {
     path: "/terrainExcavation",
     name: "TerrainExcavation",
     component: () => import("../views/TerrainExcavation/TerrainExcavation.vue")

@@ -132,6 +132,8 @@
             <el-menu-item index="9-4"> Project Tree </el-menu-item></router-link
           ><router-link to="/popWindow">
             <el-menu-item index="9-5"> Popup </el-menu-item></router-link
+          ><router-link to="/splitScreen">
+            <el-menu-item index="9-6"> Split Screen </el-menu-item></router-link
           >
         </el-submenu>
       </el-menu>
