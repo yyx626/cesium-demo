@@ -156,11 +156,6 @@ const routes = [
     component: () => import("../views/ShapeFile/ShapeFile.vue")
   },
   {
-    path: "/spaceVolume",
-    name: "SpaceVolume",
-    component: () => import("../views/SpaceVolume/SpaceVolume.vue")
-  },
-  {
     path: "/slopeAspect",
     name: "SlopeAspect",
     component: () => import("../views/SlopeAspect/SlopeAspect.vue")
